@@ -1,2 +1,8 @@
-# Co-Working-Space-Booking-System
-Web3Bridge Co-working Space Booking System with Membership Tiers and Discounts The co-working space has 15 desks, with 10 desks suitable for individual work and the remaining 5 desks suitable for team collaboration. 
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

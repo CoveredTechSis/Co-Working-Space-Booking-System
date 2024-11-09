@@ -1,0 +1,22 @@
+.desk {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .desk.individual {
+    background-color: #f0f0f0;
+  }
+  
+  .desk.team {
+    background-color: #d3e0ff;
+  }
+  
+  .desk.booked {
+    background-color: #a0a0a0;
+    color: white;
+  }
+  
