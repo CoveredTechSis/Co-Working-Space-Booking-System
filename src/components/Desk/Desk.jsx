@@ -1,14 +1,15 @@
 import React from 'react';
 import './Desk.css';
 
-const Desk = ({ type, isBooked, onClick }) => {
+const Desk = ({ desk, onClick }) => {
   return (
     <div
-      className={`desk ${type} ${isBooked ? 'booked' : ''}`}
+      className={`desk ${desk.type} ${desk.isBooked ? 'booked' : ''}`}
       onClick={onClick}
     >
-      <p>{type === 'individual' ? 'Individual' : 'Team'} Desk</p>
-      {isBooked && <p>Booked</p>}
+      <p>{desk.type === 'individual' ? 'Individual' : 'Team'} Desk</p>
+      <p>Desk ID: {desk.deskID}</p>
+      {desk.isBooked && <p>Booked</p>}
     </div>
   );
 };
