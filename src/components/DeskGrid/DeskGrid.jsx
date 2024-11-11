@@ -4,6 +4,7 @@ import BookingForm from '../BookingForm/BookingForm';
 import './DeskGrid.css';
 
 const DeskGrid = () => {
+  
   // Initialize desks with deskID, type, and isBooked status
   const initialDesks = [
     ...Array(10).fill().map((_, i) => ({ deskID: i + 1, type: 'individual', isBooked: false })),

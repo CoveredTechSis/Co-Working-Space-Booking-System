@@ -1,8 +1,19 @@
 .desk-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    max-width: 600px;
-    margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns for larger screens */
+  gap: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Adjust layout for tablets (screen width of 768px and below) */
+@media (max-width: 768px) {
+  .desk-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    max-width: 100%;
+    padding: 20px;
   }
+}
+
+
   
